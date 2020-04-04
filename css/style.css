@@ -1,3 +1,4 @@
+@@ -0,0 +1,310 @@
 /** global element styling **/
 
 @import "https://fonts.googleapis.com/css?family=Lato:400,700";
@@ -128,7 +129,7 @@ nav > ul {
   }
 }
 
-#hero {
+#heroes {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -138,18 +139,18 @@ nav > ul {
   margin-top: 50px;
 }
 
-#hero > h2 {
+#heroeses > h2 {
   margin-bottom: 20px;
   word-wrap: break-word;
 }
 
-#hero input[type="email"] {
+#heroes input[type="email"] {
   max-width: 275px;
   width: 100%;
   padding: 5px;
 }
 
-#hero input[type="submit"] {
+#heroes input[type="submit"] {
   max-width: 150px;
   width: 100%;
   height: 30px;
@@ -158,13 +159,13 @@ nav > ul {
   background-color: #f1c40f;
 }
 
-#hero input[type="submit"]:hover {
+#heroes input[type="submit"]:hover {
   background-color: orange;
   transition: background-color 1s;
 }
 
 @media (max-width: 650px) {
-  #hero {
+  #heroes {
     margin-top: 120px;
   }
 }
